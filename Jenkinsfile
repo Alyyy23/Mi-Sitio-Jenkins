@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo 'Copiando archivos al servidor Nginx...'
                 sh 'cp -f *.html /var/website-data/'
-            }
-        }
+            }    
+        }
     }
 }
