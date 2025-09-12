@@ -14,5 +14,5 @@ pipeline {
                 sh 'cp -f *.html /var/website-data/'
             }    
         }
-    }
+        }
 }
