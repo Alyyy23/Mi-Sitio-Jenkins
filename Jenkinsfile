@@ -1,4 +1,3 @@
-Tú dijiste:
 pipeline {
     agent any
     stages {
@@ -13,7 +12,7 @@ pipeline {
             steps {
                 echo 'Copiando archivos al servidor Nginx...'
                 sh 'cp -f *.html /var/website-data/'
-            }    
-        }
-        }
-} 
+            }
+        }
+    }
+}
